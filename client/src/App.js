@@ -15,7 +15,7 @@ function App() {
   const perPage = 6; 
 
   useEffect(() => {
-    const base_url = 'http://localhost:8080/api/movies';
+    const base_url = 'https://search-server-668i.onrender.com/api/movies';
 
     const getAllMovies = async () => {
       try {
